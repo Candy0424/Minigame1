@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.InputSystem;
@@ -13,7 +10,7 @@ public class InputReaderSO : ScriptableObject, IPlayerActions
     
     public UnityAction<Vector2> OnMoveEvent;
     public UnityAction OnJumpEvent; 
-
+    
     private void OnEnable()
     {
         if (_keyActions == null)
