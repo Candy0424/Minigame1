@@ -17,5 +17,5 @@ public class MoveTest : MonoBehaviour
             transform.position += (Vector3)Vector2.down;
         else if (Input.GetKeyDown(KeyCode.D))
             transform.position += (Vector3)Vector2.right;
-    }
+    }   
 }
